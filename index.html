@@ -1,19 +1,73 @@
 <!doctype html>
 <html ng-app="app">
   <head>
+    <title>Bootstrap Grid</title>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <style type="text/css">
-      .grid-item {
+      body {
+        padding: 40px;
+      }
+      .grid-item-1 {
+        background-color: #f0f;
+      }
+      .grid-item-2 {
+        background-color: #0f0;
       }
     </style>
   </head>
   <body ng-controller="appCtrl">
     <div class="container">
-      <div bootstrap-grid items="myTestItems" span-width="3" parent-span-width="12">
-        <div class="well">
-          holler {{item}}
+
+      <div class="row">
+
+        <div class="span4">
+          <div bootstrap-grid items="myTestItems" span-width="2" parent-span-width="4">
+            <div class="well grid-item-1">
+              2-4-{{item}}
+            </div>
+          </div>
+        </div>   
+
+        <div class="span8">
+          <div bootstrap-grid items="myTestItems" span-width="4" parent-span-width="8">
+            <div class="well grid-item-2">
+              4-8-{{item}}
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="span12">
+          <div bootstrap-grid items="myTestItems" span-width="1" parent-span-width="12">
+            <div class="well">
+              3-12-{{item}}
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="span12">
+          <div bootstrap-grid items="myTestItems">
+            <div class="well">
+              none-{{item}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span12">
+          <div bootstrap-grid items="myTestItems" span-width="4">
+            <div class="well">
+              none-{{item}}
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
     <script src="lib/angular.js"></script>
     <script src="js/bootstrap-grid.js"></script>

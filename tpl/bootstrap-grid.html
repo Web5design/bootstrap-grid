@@ -1,6 +1,6 @@
 <div>
   <div class="row" ng-repeat="row in rows">
-    <div class="span3" ng-repeat="item in row">
+    <div class="span{{spanWidth}}" ng-repeat="item in row">
       <div ng-transclude></div>
     </div>
   </div>
