@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
+    <style type="text/css">
+      .grid-item {
+      }
+    </style>
+  </head>
+  <body ng-controller="appCtrl">
+    <div class="container">
+      <div bootstrap-grid items="myTestItems" span-width="3" parent-span-width="12">
+        <div class="well">
+          holler {{item}}
+        </div>
+      </div>
+    </div>
+    <script src="lib/angular.js"></script>
+    <script src="js/bootstrap-grid.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
