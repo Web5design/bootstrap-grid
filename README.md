@@ -12,4 +12,4 @@ Other related links & resources:
 * [AngularJS directives docs](http://docs.angularjs.org/guide/directive "AngularJS directives")
 * [Testacular test runner](http://vojtajina.github.com/testacular/ "Testacular")
 * [Jasmine testing framework](http://pivotal.github.com/jasmine/ "Jasmine")
-*[the mother of all directive explanation videos](http://www.youtube.com/watch?v=WqmeI5fZcho "Writing Directives"), by [Miško Hevery](https://github.com/mhevery "Miško Hevery on GitHub")
+* [the mother of all directive explanation videos](http://www.youtube.com/watch?v=WqmeI5fZcho "Writing Directives")
