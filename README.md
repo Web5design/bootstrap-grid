@@ -1,6 +1,6 @@
 bootstrap-grid
 ==============
-This is a toy project to help me learn about angular directives and get an initial feel for writing test-driven code in general.
+This is data-driven bootstrap grid that I'm making to help me learn about angular directives and get an initial feel for testing code in general. 
 
 I used this project by Vojta Jina as a starting point:
 [ng-directive-testing](https://github.com/vojtajina/ng-directive-testing "ng-directive-testing")
