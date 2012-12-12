@@ -3,7 +3,7 @@ bootstrap-grid
 
 Trying to learn angularjs directives w/ testing by building a data-driven bootstrap grid.
 
-Used this project by [Vojta Jina](https://github.com/vojtajina "Vojta Jina on GitHub") as a starting point:
+Used this project by Vojta Jina as a starting point:
 [ng-directive-testing](https://github.com/vojtajina/ng-directive-testing "ng-directive-testing")
 
 Other related links & resources:
