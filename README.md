@@ -1,6 +1,6 @@
 bootstrap-grid
 ==============
-This is data-driven bootstrap grid component that in an attempt to learn about angular directives and also to get an initial feel for testing (something I've been putting off for too long) 
+This is data-driven bootstrap grid component that I made as a toy project while learning about angular directives and testing.
 
 I used this project by Vojta Jina as a starting point:
 [ng-directive-testing](https://github.com/vojtajina/ng-directive-testing "ng-directive-testing")
