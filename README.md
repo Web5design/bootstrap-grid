@@ -1,8 +1,15 @@
 bootstrap-grid
 ==============
 
-An AngularJS/Bootstrap grid component.
+Trying to learn angularjs directives w/ testing by building a data-driven bootstrap grid.
 
-I'm building this [Bootstrap](http://twitter.github.com/bootstrap/ "Twitter Bootstrap") grid component as a way to start wrapping my head around [AngularJS directives](http://docs.angularjs.org/guide/directive "AngularJS directives"), and directive specific testing using [Testacular](http://vojtajina.github.com/testacular/ "Testacular") and [Jasmine](http://pivotal.github.com/jasmine/ "Jasmine"). 
+Used this project by [Vojta Jina](https://github.com/vojtajina "Vojta Jina on GitHub") as a starting point:
+[ng-directive-testing](https://github.com/vojtajina/ng-directive-testing "ng-directive-testing")
 
-I based this project off a [great demo project by Vojta Jina](https://github.com/vojtajina/ng-directive-testing "ng-directive-testing"). Here's a [video ](http://www.youtube.com/watch?v=rB5b67Cg6bc "Testing Directives") of Vojta going through that directive testing workflow. Also, here's a link to [the mother of all directive explanation videos](http://www.youtube.com/watch?v=WqmeI5fZcho "Writing Directives"), by [Miško Hevery](https://github.com/mhevery "Miško Hevery on GitHub").
+Other related links & resources:
+* [video that accompanies that ng-directives-testing repo](http://www.youtube.com/watch?v=rB5b67Cg6bc "Testing Directives")
+* [Bootstrap](http://twitter.github.com/bootstrap/ "Twitter Bootstrap") 
+* [AngularJS directives docs](http://docs.angularjs.org/guide/directive "AngularJS directives")
+* [Testacular test runner](http://vojtajina.github.com/testacular/ "Testacular")
+* [Jasmine testing framework](http://pivotal.github.com/jasmine/ "Jasmine")
+*[the mother of all directive explanation videos](http://www.youtube.com/watch?v=WqmeI5fZcho "Writing Directives"), by [Miško Hevery](https://github.com/mhevery "Miško Hevery on GitHub")
