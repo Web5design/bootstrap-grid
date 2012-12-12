@@ -66,11 +66,11 @@ describe('bootstrapGrid', function() {
       scope.$digest();
     }));
 
-    it("it should default its 'spanWidth' to 3 if 'spanWidth' passed in is out of bounds (1-12)", function() {
+    it("it should default its 'spanWidth' to 3 if 'spanWidth' passed in is out of bounds or a string", function() {
       expect(elm.find('div.span3').length).toBeTruthy();
     });
 
-    it("it should default its 'parentSpanWidth' to 12 if 'parentSpanWidth' passed in is out of bounds (1-12)", function() {
+    it("it should default its 'parentSpanWidth' to 12 if 'parentSpanWidth' passed in is out of bounds or a string", function() {
       expect(elm.find('div.row').length).toBe(3);
     });
   }); 
