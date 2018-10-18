@@ -10,5 +10,5 @@ Other related links & resources:
 * [Bootstrap](http://twitter.github.com/bootstrap/ "Twitter Bootstrap") 
 * [AngularJS directives docs](http://docs.angularjs.org/guide/directive "AngularJS directives")
 * [Testacular test runner](http://vojtajina.github.com/testacular/ "Testacular")
-* [Jasmine testing framework](http://pivotal.github.com/jasmine/ "Jasmine")
+* [Jasmine testing framework](https://jasmine.github.io/ "Jasmine")
 * [the mother of all directive explanation videos](http://www.youtube.com/watch?v=WqmeI5fZcho "Writing Directives")
